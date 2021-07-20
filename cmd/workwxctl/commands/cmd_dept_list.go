@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"go-workwx"
+	"github.com/xen0n/go-workwx"
 
 	"github.com/urfave/cli/v2"
 )

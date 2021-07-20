@@ -7,7 +7,7 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"go-workwx"
+	"github.com/xen0n/go-workwx"
 )
 
 const (
