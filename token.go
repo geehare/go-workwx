@@ -20,6 +20,11 @@ type token struct {
 	getTokenFunc func() (tokenInfo, error)
 }
 
+// GetAccessToken 获取 access token
+func (c *WorkwxApp) GetAccessToken() (string, error) {
+	return c.accessToken.getToken(), nil
+}
+
 // getAccessToken 获取 access token
 func (c *WorkwxApp) getAccessToken() (tokenInfo, error) {
 	get, err := c.execGetAccessToken(reqAccessToken{
